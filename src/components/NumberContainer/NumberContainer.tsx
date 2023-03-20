@@ -8,7 +8,7 @@ type Props = {
   basis?: string;
   wrap?: boolean;
   disabled: boolean;
-  hover:boolean
+  hover:boolean;
 
 };
 
