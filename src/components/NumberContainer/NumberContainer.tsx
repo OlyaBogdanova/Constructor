@@ -1,7 +1,6 @@
-import React, { memo } from "react";
+import React from "react";
 import NumberButton from "../NumberButton/NumberButton";
 import "./NumberContainer.scss";
-import { useDrag } from "react-dnd";
 import MathTypeButton from "../MathTypeButton/NumberButton/MathTypeButton";
 
 type Props = {

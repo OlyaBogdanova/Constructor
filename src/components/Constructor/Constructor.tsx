@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, {  useState, useContext } from "react";
 import { NumberContext } from "../NumberProvider";
 import Display from "../Display/Display";
 import NumberContainer from "../NumberContainer/NumberContainer";
@@ -56,7 +56,7 @@ function Constructor(props: Props) {
           ),
           disabled: false,
           hover: false,
-          
+
         },
         {
           id: 6,
