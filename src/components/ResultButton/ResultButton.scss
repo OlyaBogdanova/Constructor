@@ -1,0 +1,25 @@
+.container {
+  width: 240px;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 4px;
+  cursor: move;
+}
+.container.run{
+  cursor: pointer;
+}
+.result {
+  background-color: #5d5fef;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 24px 0px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+}

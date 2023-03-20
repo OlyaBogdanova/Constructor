@@ -1,0 +1,18 @@
+.container {
+  width: 240px;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  cursor: move;
+}
+.container.wrap {
+  flex-wrap: wrap;
+}
+
+.container.disabled{
+  box-shadow:none;
+  opacity: 0.5;
+
+}

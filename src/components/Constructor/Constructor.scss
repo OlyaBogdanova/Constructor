@@ -1,0 +1,93 @@
+
+  .item {
+    height: 100%;
+  }
+  .calc_container {
+    display: flex;
+    justify-content: center;
+  }
+  .calc_container.full{
+    width: 100%;
+  }
+  .board {
+    width: 240px;
+    margin: 20px 30px;
+  }
+  .board.empty {
+    border: 2px dashed #c4c4c4;
+    border-radius: 6px;
+    height: 521px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .item .item_item:last-child .container {
+    margin-bottom: 0px;
+  }
+  .emptyBlock_title {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #6b7280;
+    span {
+      display: block;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #5d5fef;
+      margin-bottom: 4px;
+    }
+  }
+  .emptyBlock_img {
+    margin-bottom: 12px;
+  }
+  .item_item.disabled {
+    opacity: 0.5;
+  }
+  .elem {
+    margin: 2px 0px;
+    height: 1px;
+    position: relative;
+  }
+  .elem.hover::before {
+    content: "";
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #5d5fef;
+  }
+  .elem_border {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 100%;
+  }
+  .elem_border::before {
+    content: "";
+    position: absolute;
+    top: -7.2px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    background-color: #5d5fef;
+    rotate: 45deg;
+    z-index: 100;
+  }
+  .elem_border::after {
+    content: "";
+    position: absolute;
+    top: -7.2px;
+    right: 0px;
+    width: 5px;
+    height: 5px;
+    background-color: #5d5fef;
+    rotate: 45deg;
+    z-index: 100;
+  }
+  .hide{
+    display: none;
+  }
